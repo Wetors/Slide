@@ -35,7 +35,7 @@ $(function(){
        slideShow[0].src = 'image/' + images[Iteration];
        slideShow.fadeIn(500);
        Iteration++;
-       stop = setTimeout(changeImages, 3000); 
+       stop = setTimeout(changeImages, 2000); 
    };
 
    $('div > button').on('click', clickChangeImages);
