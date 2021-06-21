@@ -1,0 +1,43 @@
+body{
+    background-color: 	#363636;
+}
+div .continer{ 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    height: 90%;
+    width: 80%; 
+    background-color: 	#F8F8F8;
+    border: 2px solid #DCDCDC;
+    padding: 30px;
+}
+img{ 
+   height: 100%;
+   margin-left: 0%;
+   width: 40%;
+   height: 100%;
+}
+button, img{
+    display: inline;
+    float: left;
+}
+button{
+    opacity: 0.10;
+    height: 100%;
+    font-family: Arial Black, sans-serif;
+    border-style: none;
+}
+p:hover{
+   opacity: 1.00;
+}
+.back {
+  margin-right: 0%;
+  margin-left: 27%;
+}
+button:hover{
+    box-shadow: 0 0 5px 5px #1c1c1c;
+}
